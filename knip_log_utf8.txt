@@ -1,0 +1,39 @@
+﻿[93m[4mUnused files[24m[39m (3)
+src/sheetManager/index.ts           
+src/common/components/index.ts      
+src/common/helpers/formatCurrency.ts
+[93m[4mUnused dependencies[24m[39m (1)
+@react-native/new-app-screen  package.json:13:6
+[93m[4mUnused devDependencies[24m[39m (2)
+@babel/preset-env  package.json:29:6
+@babel/runtime     package.json:30:6
+[93m[4mUnused exports[24m[39m (20)
+LightColors           src/core/theme/index.ts:1:10                
+DarkColors            src/core/theme/index.ts:1:23                
+Typography            src/core/theme/index.ts:4:10                
+setTheme              src/core/store/slices/themeSlice.ts:24:29   
+IS_PRODUCTION         src/core/config/env.ts:11:14                
+loginUser             src/core/store/slices/authSlice.ts:34:14    
+resetAuth             src/core/store/slices/authSlice.ts:88:52    
+fetchMenuItems        src/core/store/slices/menuSlice.ts:21:14    
+createMenuItemAsync   src/core/store/slices/menuSlice.ts:35:14    
+setMenuItems          src/core/store/slices/menuSlice.ts:110:5    
+updateMenuItem        src/core/store/slices/menuSlice.ts:112:5    
+removeMenuItem        src/core/store/slices/menuSlice.ts:113:5    
+setLoading            src/core/store/slices/menuSlice.ts:115:5    
+fetchFeedback         src/core/store/slices/feedbackSlice.ts:19:14
+setFeedback           src/core/store/slices/feedbackSlice.ts:64:16
+addFeedback           src/core/store/slices/feedbackSlice.ts:64:29
+setLoading            src/core/store/slices/feedbackSlice.ts:64:42
+fetchRecommendations  src/core/store/slices/insightsSlice.ts:28:14
+setRecommendations    src/core/store/slices/insightsSlice.ts:77:16
+Typography            src/core/theme/typography.ts:3:14           
+[93m[4mUnused exported types[24m[39m (8)
+AuthStackParamList  type       src/navigation/AuthStack.tsx:5:13           
+MainTabParamList    type       src/navigation/MainTabNavigator.tsx:14:13   
+ThemeColors         type       src/core/theme/index.ts:2:15                
+UserProfile         interface  src/core/store/slices/authSlice.ts:6:18     
+AuthState           interface  src/core/store/slices/authSlice.ts:14:18    
+MenuState           interface  src/core/store/slices/menuSlice.ts:7:18     
+FeedbackState       interface  src/core/store/slices/feedbackSlice.ts:7:18 
+InsightsState       interface  src/core/store/slices/insightsSlice.ts:12:18
